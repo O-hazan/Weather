@@ -1,0 +1,85 @@
+.search-bar {
+  margin-bottom: 60px;
+}
+
+.container {
+  color: #272343;
+}
+
+.box {
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 0.25rem;
+  width: 550px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: block;
+  background-color: #6bc3c7;
+}
+
+.selected {
+  pointer-events: none;
+  font-size: x-large;
+  color: black;
+}
+
+.unselected {
+  font-size: large;
+  color: black;
+}
+
+header {
+  margin-top: -45px;
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+  padding-bottom: 15px;
+}
+
+#icon3 {
+  height: 40px;
+  width: 60px;
+  /* padding-right: 50px; */
+  margin: 0 auto;
+}
+
+#minMaxDiv {
+  /* height: 50px;
+  width: 50px; */
+}
+
+#icon2 {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-left: 0px 0px 0px 30px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+#icon2Main {
+  width: 500px;
+  margin: 0 auto;
+  justify-content: left;
+
+  float: right;
+  display: flex;
+  /* display: flex; */
+  /* padding-right: 70px; */
+  /* float: left; */
+  /* margin-left: 0; */
+}
+
+.images {
+  float: left;
+  /* width: 50px;
+  height: 50px; */
+  display: block;
+}
